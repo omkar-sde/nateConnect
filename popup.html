@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nate-Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 90%;
+            padding: 8px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Set Custom Message Inputs</h2>
+    <label for="position">Position</label>
+    <input type="text" id="position" placeholder="Enter position (e.g., Senior Developer)">
+
+    <label for="company">Company</label>
+    <input type="text" id="company" placeholder="Enter company (e.g., Google)">
+
+    <label for="message">Custom Message Template</label>
+    <textarea id="message" placeholder="Enter your message template..."></textarea>
+
+    <button id="saveButton">Save</button>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
